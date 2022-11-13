@@ -21,6 +21,39 @@
 ### Уникальность:
 Высокая точность, возможность обрабатывать несколько таблиц, высокая скорость работы модели Text-To-Text, простой и интуитивный интерфейс.
 
+### Поддерживаемые операторы SQL
+
+- [X] SELECT
+    - [X] one column
+    - [X] multiple columns
+    - [X] all columns
+    - [X] distinct select
+    - [X] aggregate functions
+        - [X] count-select
+        - [X] sum-select
+        - [X] avg-select
+        - [X] min-select
+        - [X] max-select
+- [ ] JOIN
+- [X] WHERE
+    - [X] one condition
+    - [X] multiple conditions
+    - [X] operators
+        - [X] equal/not equal operator
+        - [X] greater-than/less-than operator
+        - [ ] like operator
+        - [ ] between operator
+    - [X] aggregate functions
+        - [X] sum in condition
+        - [X] avg in condition
+        - [X] min in condition
+        - [X] max in condition
+- [X] ORDER BY
+    - [X] ASC
+    - [X] DESC
+- [X] GROUP BY
+- [ ] detection of values
+
 ### Файлы:
 - Making Spider Dataset.ipynb - Преобразование датасета Spider для обучения T5
 - Training T5-Base on Spider.ipynb - Обучение T5-Base
