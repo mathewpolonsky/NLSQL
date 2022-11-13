@@ -1,0 +1,1 @@
+﻿gunicorn nlpQL.wsgi --log-file -
