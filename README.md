@@ -22,6 +22,6 @@
 Высокая точность, возможность обрабатывать несколько таблиц, высокая скорость работы модели Text-To-Text, простой и интуитивный интерфейс.
 
 ### Файлы:
-- .ipynb - . 
-- .ipynb - .
-- .ipynb - .
+- Making Spider Dataset.ipynb - Преобразование датасета Spider для обучения T5.
+- Training T5-Base on Spider.ipynb - Обучение T5-Base.
+- Making Translated Spider Dataset.ipynb - Перевод датасета Spider для обучения моделей на русском.
