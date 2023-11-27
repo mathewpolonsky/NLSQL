@@ -1,6 +1,6 @@
 # NLSQL
 
-## Переводчик с естественного языка на SQL - «Цифровой прорыв»
+## Переводчик с естественного языка на SQL - «Цифровой прорыв» — 1 место
 
 ### Краткое описание кейса
 Современные технологии позволяют легко решать задачи перевода естественных человеческих языков. Доступно большое количество технологий и уже обученных нейросетей для решения подобных задач, но стабильно работающего переводчика с человеческой речи на язык программирования - нет. 
@@ -55,8 +55,8 @@
 - [ ] detection of values
 
 ### Файлы:
-- Making Spider Dataset.ipynb - Преобразование датасета Spider для обучения T5
-- Training T5-Base on Spider.ipynb - Обучение T5-Base
-- Making Translated Spider Dataset.ipynb - Перевод датасета Spider для обучения моделей на русском
-- nlpQL/ - Сайт на Django
-- NQLbot/ - Telegram бот на Telebot
+- `Making Spider Dataset.ipynb` - Преобразование датасета Spider для обучения T5
+- `Training T5-Base on Spider.ipynb` - Обучение T5-Base
+- `Making Translated Spider Dataset.ipynb` - Перевод датасета Spider для обучения моделей на русском
+- `nlpQL/` - Сайт на Django
+- `NQLbot/` - Telegram бот на Telebot
